@@ -19,7 +19,7 @@ ai-agent/
 └── tests/
 ```
 
-Inside `src/activity_agent/`:
+Inside `src/activity_agent/`
 
 - **`collectors/`** — `screenshot`, `window`, `desktop_context` (Windows focus/idle), `system_load` (`SystemLoadCollector`, `SystemLoadState`: CPU/RAM/swap via **psutil**, cross-platform)
 - **`inference/llm/`** — OpenAI-compatible chat + Ollama vision clients, shared prompt
